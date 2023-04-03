@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>381884703205-i05p1h6b80bmedp9l5p0ec9u1icuteha.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.381884703205-i05p1h6b80bmedp9l5p0ec9u1icuteha</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBUanqinOpRd8NF6SVOE8A9yGz3cflYbh8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>381884703205</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.qiiisixxx.project.QOFE</string>
+	<key>PROJECT_ID</key>
+	<string>qofe-2050d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>qofe-2050d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:381884703205:ios:c5cacb996a8d9b3ecd4f0c</string>
+	<key>DATABASE_URL</key>
+	<string>https://qofe-2050d-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
