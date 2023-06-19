@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1F1DB52A3DE1B400D7E9E2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1F1DB42A3DE1B300D7E9E2 /* Launch Screen.storyboard */; };
 		4F493EC829CF30E300DA8AA0 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F493EC729CF30E300DA8AA0 /* UserDetailView.swift */; };
 		4F493ECA29CF32E800DA8AA0 /* UserListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F493EC929CF32E800DA8AA0 /* UserListener.swift */; };
 		4FB6AB4029CEF96800E768B6 /* QOFEAdminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB6AB3F29CEF96800E768B6 /* QOFEAdminApp.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		41F39DFF819F62F64BD402D0 /* Pods_QOFEAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QOFEAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1F1DB42A3DE1B300D7E9E2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		4F493EC729CF30E300DA8AA0 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		4F493EC929CF32E800DA8AA0 /* UserListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListener.swift; sourceTree = "<group>"; };
 		4FB6AB3C29CEF96800E768B6 /* QOFEAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QOFEAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 				4FB6AB5D29CF145800E768B6 /* OrderListener.swift */,
 				4F493EC729CF30E300DA8AA0 /* UserDetailView.swift */,
 				4F493EC929CF32E800DA8AA0 /* UserListener.swift */,
+				4F1F1DB42A3DE1B300D7E9E2 /* Launch Screen.storyboard */,
 			);
 			path = QOFEAdmin;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			files = (
 				4FB6AB4729CEF96D00E768B6 /* Preview Assets.xcassets in Resources */,
 				4FB6AB4429CEF96D00E768B6 /* Assets.xcassets in Resources */,
+				4F1F1DB52A3DE1B400D7E9E2 /* Launch Screen.storyboard in Resources */,
 				4FB6AB4E29CEFBD800E768B6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,8 +410,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,8 +442,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

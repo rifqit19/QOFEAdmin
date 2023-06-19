@@ -7,6 +7,7 @@ target 'QOFEAdmin' do
 
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
+  pod 'ToastSwiftUI'
 
   # Pods for QOFEAdmin
 

@@ -11,12 +11,30 @@ struct OrderView: View {
     
     @ObservedObject var orderListener  = OrderListener()
     
+    init() {
+        let navBarAppearance = UINavigationBar.appearance()
+        
+        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.black]
+        navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.black]
+    }
+    
     var body: some View {
         
         NavigationView{
             List{
                 
-                Section(header: Text("Active Orders")) {
+                HStack{
+                    Spacer()
+                    Image("qofe_logo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 200, height: 50)
+                    Spacer()
+                }
+                .padding(.top)
+                .listRowBackground(Color("darkBrown"))
+                
+                Section(header: Text("Pesanan Aktif").foregroundColor(.white)) {
                     ForEach(self.orderListener.activeOrders ?? []) { order in
                         NavigationLink(destination: OrderDetailView(order: order)) {
                             HStack{
@@ -28,7 +46,7 @@ struct OrderView: View {
                     }// end of foreach
                 }
                 
-                Section(header: Text("Complete Orders")) {
+                Section(header: Text("Pesanan Selesai").foregroundColor(.white)) {
                     ForEach(self.orderListener.completedOrders ?? []) { order in
                         NavigationLink(destination: OrderDetailView(order: order)){
                             HStack{
@@ -43,7 +61,10 @@ struct OrderView: View {
                 
                 
             }//end off list
-            .navigationBarTitle("Orders")
+            .background(Color("darkBrown"))
+            .scrollContentBackground(.hidden)
+//            .navigationBarTitle("Orders")
+//            .navigationBarTitleDisplayMode(.large)
         }// end off navigation
     }
 }
